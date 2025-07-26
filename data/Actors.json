@@ -1,0 +1,11 @@
+[
+null,
+{"id":1,"battlerName":"linda","characterIndex":0,"characterName":"linda","classId":2,"equips":[7,41,0,5,82],"faceIndex":0,"faceName":"linda","traits":[],"initialLevel":1,"maxLevel":99,"name":"Lina","nickname":"","note":"","profile":""},
+{"id":2,"battlerName":"Kael","characterIndex":0,"characterName":"Kael","classId":4,"equips":[2,37,57,13,86],"faceIndex":0,"faceName":"Kael","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kael","nickname":"","note":"","profile":""},
+{"id":3,"battlerName":"Tiki","characterIndex":0,"characterName":"Tiki","classId":3,"equips":[15,0,0,21,91],"faceIndex":0,"faceName":"kiki","traits":[],"initialLevel":1,"maxLevel":99,"name":"Kiki","nickname":"","note":"","profile":""},
+{"id":4,"battlerName":"Rek","characterIndex":0,"characterName":"Rek","classId":7,"equips":[39,0,47,4,100],"faceIndex":0,"faceName":"Rek","traits":[],"initialLevel":1,"maxLevel":99,"name":"Rek","nickname":"","note":"","profile":""},
+{"id":5,"battlerName":"nightmare linda","characterIndex":0,"characterName":"nightmare linda","classId":2,"equips":[7,41,0,5,82],"faceIndex":0,"faceName":"nightmare linda","traits":[],"initialLevel":1,"maxLevel":99,"name":"Nightmare Lina","nickname":"","note":"","profile":""},
+{"id":6,"battlerName":"","characterIndex":2,"characterName":"SF_Monster","classId":1,"equips":[0,0,0,0,0],"faceIndex":2,"faceName":"SF_Monster","traits":[],"initialLevel":1,"maxLevel":99,"name":"کابوس","nickname":"","note":"","profile":""},
+{"id":7,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""},
+{"id":8,"battlerName":"","characterIndex":0,"characterName":"","classId":1,"equips":[0,0,0,0,0],"faceIndex":0,"faceName":"","traits":[],"initialLevel":1,"maxLevel":99,"name":"","nickname":"","note":"","profile":""}
+]
