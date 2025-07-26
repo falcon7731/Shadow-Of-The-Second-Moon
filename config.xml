@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.example.shadowmoon" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+  <name>Shadow Of The Second Moon</name>
+  <description>A dreambound journey beneath the second moon.</description>
+  <author email="your@email.com" href="https://your.website">Mehergan</author>
+  <content src="index.html" />
+  <preference name="SplashScreen" value="screen" />
+  <preference name="orientation" value="portrait" />
+  <platform name="android">
+    <icon src="icon.png" density="mdpi" />
+    <icon src="icon.png" density="hdpi" />
+    <icon src="icon.png" density="xhdpi" />
+    <icon src="icon.png" density="xxhdpi" />
+    <icon src="icon.png" density="xxxhdpi" />
+  </platform>
+</widget>
