@@ -11,10 +11,10 @@ jobs:
 
     steps:
       - name: Checkout repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v3
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v4
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
         with:
           node-version: '18'
 
@@ -22,27 +22,29 @@ jobs:
         run: npm install -g cordova
 
       - name: Create Cordova project
+        run: cordova create myApp com.example.shadowmoon "Shadow Of The Second Moon"
+
+      - name: Copy game files to www
+        run: cp -r * myApp/www || true
+
+      - name: Add Android platform
         run: |
-          cordova create myApp com.example.app "Shadow Of The Second Moon"
           cd myApp
           cordova platform add android
 
-      - name: Copy game files into www folder
-        run: |
-          shopt -s extglob
-          cp -r !(myApp|.git|node_modules|.github) myApp/www/
+      - name: Create icon folder
+        run: mkdir -p myApp/res/icon/android
 
-      - name: Add custom icon
-        run: |
-          cp icon.png myApp/res/icon/android/icon-192.png
+      - name: Copy custom icon
+        run: cp icon.png myApp/res/icon/android/icon-192.png
 
       - name: Build APK
         run: |
           cd myApp
-          cordova build android --release
+          cordova build android
 
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
           name: ShadowOfTheSecondMoon-APK
-          path: myApp/platforms/android/app/build/outputs/apk/release/app-release.apk
+          path: myApp/platforms/android/app/build/outputs/apk/debug/app-debug.apk
