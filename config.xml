@@ -5,7 +5,7 @@
   <author email="your@email.com" href="https://your.website">Mehergan</author>
   <content src="index.html" />
   <preference name="SplashScreen" value="screen" />
-  <preference name="orientation" value="portrait" />
+<preference name="Orientation" value="landscape" />
   <platform name="android">
     <icon src="icon.png" density="mdpi" />
     <icon src="icon.png" density="hdpi" />
